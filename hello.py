@@ -44,5 +44,6 @@ if answer == secret_code1
    print("correct!")
 elif answer == secret_code2:
    print("Also correct")
+
 else:
    print("not correct")
