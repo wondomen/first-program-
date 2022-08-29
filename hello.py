@@ -39,8 +39,7 @@
 secret_code1 = "NATO"
 secret_code2 = "EU"
 answer = input("what is the secret code?")
-
-if answer == secret_code1
+if answer == secret_code1:
    print("correct!")
 elif answer == secret_code2:
    print("Also correct")
