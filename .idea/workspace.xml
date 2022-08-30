@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70f907c5-5d97-454e-9252-e2b3a98ae4da" name="Changes" comment="doing exercise practice">
-      <change beforePath="$PROJECT_DIR$/first-program-" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +118,8 @@
       <updated>1661354908216</updated>
       <workItem from="1661354917827" duration="7025000" />
       <workItem from="1661420852699" duration="20034000" />
-      <workItem from="1661774229973" duration="1130000" />
+      <workItem from="1661774229973" duration="1584000" />
+      <workItem from="1661854681933" duration="9857000" />
     </task>
     <task id="LOCAL-00001" summary="doing exercise practice">
       <created>1661773467357</created>
@@ -134,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661773636613</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="doing exercise practice">
+      <created>1661775760542</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661775760542</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +189,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProjectLearning_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1661355602812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProjectLearning_Python$hello.coverage" NAME="hello Coverage Results" MODIFIED="1661773830240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProjectLearning_Python$hello.coverage" NAME="hello Coverage Results" MODIFIED="1661865598518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -36,13 +36,40 @@
 #print("Give me three integer number than I will give you the sum, the product and the average of the three number ")
 #print("the sum is " + str(sum) + " the product is " + str(product) + " and the average is " + str(average)
 
-secret_code1 = "NATO"
-secret_code2 = "EU"
-answer = input("what is the secret code?")
-if answer == secret_code1:
-   print("correct!")
-elif answer == secret_code2:
-   print("Also correct")
+ #phase 5
 
-else:
-   print("not correct")
+#Mass_Talent= float(input("Enter the mass in talents: "))
+#Talent_kg = 0.8521*Mass_Talent
+#Talent_g = 8521*Mass_Talent
+#if Mass_Talent >=0:
+ #   print("The weight in moder units: " + str(Talent_kg) + " kilograms " "and " + str(Talent_g) + " grams")
+#else:
+ #   print("Sorry! No results for this")
+
+#Mass_Pound = float(input("Enter the mass in pounds: "))
+#Pound_kg = 0.4256*Mass_Pound
+#Pound_g = 4256*Mass_Pound
+#if Mass_Pound >=0:
+    #print("The weight in moder units: " + str(Pound_kg) + " kilograms " "and " + str(Pound_g) + " grams")
+#else:
+ #   print("Sorry! No solutions for this")
+
+#Mass_lots = float(input("Enter the mass in lots: "))
+#lots_kg = 0.0133*Mass_lots
+#lots_g = 13.3*Mass_lots
+#if Mass_lots >=0:
+ #   print("The weight in moder units: " + str(lots_kg) + " kilograms " "and " + str(lots_g) + " grams")
+#else:
+#    print("Sorry! No results for this ")
+
+
+#secret_code1 = "NATO"
+#secret_code2 = "EU"
+#answer = input("what is the secret code?")
+#if answer == secret_code1:
+#   print("correct!")
+#elif answer == secret_code2:
+#   print("Also correct")
+
+#else:
+ #  print("not correct")
