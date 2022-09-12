@@ -1,83 +1,120 @@
 import random
 import math
+# Exercise 5
+
 # Question 1
 
-n = 1
-while  n <= 1000:
-    if n%3 == 0:
-       print(int(n))
-    n = n + 1
+num_dice = int(input("Enter how many dice you want to roll? "))
+sum_roll = 0
+for i in range(num_dice):
+    sum_roll = sum_roll + random.randint(1, 6)
+print("The out put sum of all dice is: ", sum_roll)
+
 # Question 2
+listnum = []
+num = input("Enter at list five numbers you want?  ")
+while num != "":
+    listnum.append(num)
+    num = input("Enter a numbers you want")
+    listnum.sort(reverse=True)
+print("the first five greatest number are ")
+for i in range(5):
+    print(listnum[i], end="")
 
-length_inch = float(input("Enter the length in inch "))
-length_cm = 2.54 * length_inch
-while length_inch >= 0:
-    print(length_cm)
-    length_inch = float(input("Enter the length in inch "))
+#Question 3
 
+x = int(input("Enter an integer number"))
+x_half = x // 2
+divisible = False
+for i in range(2, x_half + 1):
+    if x % i == 0:
+        divisible = True
+        break
+if divisible == False:
 
-# Question number 3 alternative
-prompt = "Give a number?"
-s= input(prompt)
-if s != "":
-    smallest = int(s)
-    largest = smallest
-while s != "":
-    n = int(s)
-    if n < smallest:
-        smallest = n
-    if n > largest:
-        largest = n
-    s = input(prompt)
+    print("This is a prime number")
 else:
-    print("the largest is " , largest)
-    print('smallest is ', smallest)
+    print("This is not a prime number")
 
 
- # Question 4
+# Question 4
 
+city_list = []
+user = str("Pleas enter any five cites you like? ")
+print(user)
+for i in range(5):
+    city_list.append(input("Name of cities: "))
+for i in range(5):
+    print(city_list[i])
+
+# Exercise 6
+
+# Question 1
 import random
-number = random.randint(1, 10)
-attempts = 0
-guess = 0
-while guess != number:
-    guess = eval(input("Guess a number: "))
-    attempts = 1 + attempts
-    if guess == number:
-        print("Correct")
-        break
-    elif guess > number:
-        print("Too high")
-    else:
-        print("Too low")
+import math
+def roll_dice():
+    return random.randint(1, 6)
+x = roll_dice()
+while x != 6:
+    print(x)
+    x = roll_dice()
+print(x)
 
-# Question 5
+#Question 2
 
-print("username and password")
-count = 0
-while count < 5:
-    username = input("Enter username ")
-    password = input("Enter pass word ")
-    if username == "python" and password == "rules" and count < 5:
-        print("Welcome")
-        break
-    else:
-        print("Access denied ")
-        count = 1 + count
+def roll_dice(sides):
+    return random.randint(1, sides)
+num_sides = int(input("Enter how many sides the dice has? "))
+x = roll_dice(num_sides)
+while x != num_sides:
+    print(x)
+    x = roll_dice(num_sides)
+print(num_sides)
+
+#Question 3
+
+def gallon_litter(gallon):
+    return gallon * 3.785
+num_gallon = float(input("Enter the gallon:- "))
+while num_gallon >=0:
+   print("equal to ", + gallon_litter(num_gallon),  "litters")
+   num_gallon = float(input("Enter the gallon:- "))
+
+#Question 4
+
+def sumlist(integers):
+    total_sum = 0
+    for i in integers:
+        total_sum = i + 1
+    return total_sum
+print("The sum of the list is:-", + sum((1, 2, 4, 6, 8, 10)))
+
+
+#Question 5
+
+def list(integer_list):
+    sec_list = []
+    for i in integer_list:
+        if i % 2 == 0:
+            sec_list.append(i)
+    print("first list: ", integer_list)
+    print("second list: ", sec_list)
+first_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 20, 23,22]
+list(first_list)
 
 #Question 6
 
-import random
-n = 0
-count = float(input("Enter how many random points to generate?  "))
-inside = 0
-while n != count:
-    rand_x = random.uniform(-1,1)
-    rand_y = random.uniform(-1,1)
-    n = n + 1
-
-    if (rand_x**2) + (rand_y**2) < 1:
-        inside = inside + 1
-pi = float
-Pi = 4 * inside / count
-print("the approximate value of pi is:" ,pi)
+def cal_pizza_price(diameter, price, pizza):
+    area_pizza = math.pi * diameter * diameter / 4
+    print("the price of the pizza-", pizza, "per square meter is:-",  price / area_pizza)
+    return price / area_pizza
+pizza1 = float(input("Enter the diameter of the pizza1 in cm: "))
+price_pizza1 = float(input("Enter the price of pizza1 in euro: "))
+pizza2 = float(input("Enter the diameter of the pizza2 in cm: "))
+price_pizza2 = float(input("Enter the price of pizza2 in euro: "))
+if cal_pizza_price(pizza1, price_pizza1, 1) < cal_pizza_price(pizza2, price_pizza2, 2):
+    print("pizza1 is cheaper than pizza2")
+elif cal_pizza_price(pizza1, price_pizza1, 1) > cal_pizza_price(pizza2, price_pizza2, 2):
+    print("pizza2 is cheaper than pizza1")
+else:
+    print("pizza1 has same price as pizza2")
