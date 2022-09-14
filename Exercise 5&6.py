@@ -112,9 +112,11 @@ pizza1 = float(input("Enter the diameter of the pizza1 in cm: "))
 price_pizza1 = float(input("Enter the price of pizza1 in euro: "))
 pizza2 = float(input("Enter the diameter of the pizza2 in cm: "))
 price_pizza2 = float(input("Enter the price of pizza2 in euro: "))
-if cal_pizza_price(pizza1, price_pizza1, 1) < cal_pizza_price(pizza2, price_pizza2, 2):
+c1 = cal_pizza_price(pizza1, price_pizza1, 1)
+c2 = cal_pizza_price(pizza2, price_pizza2, 2)
+if c1 < c2:
     print("pizza1 is cheaper than pizza2")
-elif cal_pizza_price(pizza1, price_pizza1, 1) > cal_pizza_price(pizza2, price_pizza2, 2):
+elif c1 > c2:
     print("pizza2 is cheaper than pizza1")
 else:
     print("pizza1 has same price as pizza2")
