@@ -16,10 +16,11 @@ num = input("Enter at list five numbers you want?  ")
 while num != "":
     listnum.append(num)
     num = input("Enter a numbers you want")
-    listnum.sort(reverse=True)
+listnum.sort(reverse=True)
+print(listnum)
 print("the first five greatest number are ")
 for i in range(5):
-    print(listnum[i], end="")
+    print(listnum[i], end="  ")
 
 #Question 3
 
