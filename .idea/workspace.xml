@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70f907c5-5d97-454e-9252-e2b3a98ae4da" name="Changes" comment="A combined Solutions for the exercise 5&amp;6 from me and class teacher">
-      <change afterPath="$PROJECT_DIR$/Exercise 7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkche.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditional.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex7 mine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise 8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercies 4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercies 4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise 5&amp;6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise 5&amp;6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment during class.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment during class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +51,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/wondo/PycharmProjects/pythonProjectLearning Python/EXERCIES 3.py",
     "node.js.detected.package.eslint": "true",
@@ -74,6 +68,28 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="Exersice 8" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pythonProjectLearning Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exersice 8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProjectLearning Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,6 +134,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="try" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pythonProjectLearning Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/try.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.hello" />
@@ -140,6 +178,7 @@
       <workItem from="1662391662581" duration="6252000" />
       <workItem from="1662556166508" duration="94257000" />
       <workItem from="1663224847857" duration="132330000" />
+      <workItem from="1664134052010" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="doing exercise practice">
       <created>1661773467357</created>
